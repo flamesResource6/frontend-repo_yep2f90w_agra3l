@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Discord, Twitter, Github, Crown, Sparkles } from 'lucide-react'
+import { MessageCircle, Twitter, Github, Crown, Sparkles } from 'lucide-react'
 
 const team = [
   {
@@ -139,7 +139,7 @@ export default function Team() {
                   <Twitter className="h-4 w-4" />
                 </a>
                 <a href={m.links.discord} className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-white/10 bg-white/5 text-slate-200 transition-colors hover:bg-white/10" aria-label={`${m.name} Discord`}>
-                  <Discord className="h-4 w-4" />
+                  <MessageCircle className="h-4 w-4" />
                 </a>
                 <a href={m.links.github} className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-white/10 bg-white/5 text-slate-200 transition-colors hover:bg-white/10" aria-label={`${m.name} GitHub`}>
                   <Github className="h-4 w-4" />
