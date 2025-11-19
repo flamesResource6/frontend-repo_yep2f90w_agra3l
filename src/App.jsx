@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Features from './components/Features'
 import Servers from './components/Servers'
+import Team from './components/Team'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Features />
       <Servers />
+      <Team />
 
       <footer className="relative z-10 border-t border-white/10 py-10">
         <div className="mx-auto max-w-7xl px-6">
